@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#container{
+    background-color: #fff;
+    width: 1520px;
+    height: 800px;
+}
+.box_1{
+    background-color: #fff;
+    width: 1520px;
+    height: 700px;
+}
+.category{
+    background-color: #fff;
+    width: 1520px;
+    height: 100px;
+}
+.login{
+    background-color: #fff;
+    width: 1520px;
+    height: 50px;
+    text-decoration: none;
+}
+.login nav ul {
+    list-style: none;
+    padding-left: 200px;
+    position: absolute;
+    height: 40px;
+    width: 700px;
+    text-decoration: none;
+}
+ 
+.login nav ul li{
+    display: inline-flex;
+    margin-left: 80px;
+    padding-top: 20px;
+   }
+
+.login ul li a{
+    text-decoration-line: none;
+    color: rgb(5, 5, 5);
+    font-size: .8667em;;
+}
+
+.join{
+    padding-right: 150px;
+    text-align: right;
+}
+
+.join ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+    float: right;
+    position: relative;
+    padding-right: 30px;
+    padding-top: 20px; 
+}
+
+.join ul li a{
+    text-decoration-line: none;
+}
+
+.categ{
+    width:1520px;
+    height: 50px;
+    background-color:  #fff;
+    border-bottom:  4px solid rgb(76, 3, 100);
+}
+
+.categ nav ul{
+    list-style: none;
+     padding-left: 300px;
+    position: absolute;
+    height: 40px;
+    width: 700px;
+}
+
+.categ nav ul li{
+    display: inline-flex;
+     margin-left: 90px;
+    padding-top: 20px;
+}
+
+.categ ul li a{
+    text-decoration-line: none;
+    color: rgb(4, 4, 4);
+}
+
+.event{
+    padding-right: 150px;
+    text-align: right;
+}
+
+.event ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+    float: right;
+    position: relative;
+    padding-right: 90px;
+    padding-top: 20px; 
+    border-bottom: #fff;
+    z-index: 2;
+}
+.movie_image{
+    background-color: #fff;
+    width: 1520px;
+    height: 500px;
+}
+.boxoffice{
+    background-color:#fff;
+    width: 1500px;
+    height: 100px;
+    margin-left: 170px;
+    padding-top: 80px;
+    margin-top: 10px;
+}
+
+.all_movie p{
+    width: 500px;
+    height: 30px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.boxoffice ul {
+    width: 1300px;
+    margin-top: 11px;
+    display: inline-flex;
+    list-style: none;
+    margin-left: 3px;
+}
+.boxoffice ul li{
+    color: rgb(7, 7, 7);
+    border: 2px solid #ebebeb;
+    width: 200px;
+    text-align: center;
+   height: 36px;
+   padding-top: 14px;
+   
+}
+.boxoffice ul li a{
+ text-decoration: none;
+ color: black;
+}
+
+.boxoffice li:hover{
+    background-color: rgba(78, 4, 134, 0.541);
+  
+}
+
+
+.iner_img{
+    background-color:#fff;
+    width: 1520px;
+    height: 500px;
+}
+
+.inner li{
+width: 1520px;
+height: 400px;
+display: flex;
+}
+
+.iner_img ul {
+  width: 1020px;
+  height: 500px;
+  top: 8em;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+  
+}
+
+.iner_img ul li {
+  box-sizing: border-box;
+  width: 400px;
+  height: 400px;
+  z-index: 100;
+  display: flex;
+  position: static;
+  border-radius: 5%;
+  margin-bottom: 60px;
+  margin-left: 20px;
+ 
+}
+
+.iner_img img{
+    width: 300px;
+    height: 300px;
+}
+
+.img_title{
+    width: 150px;
+    height: 40px;
+    font-size: 26px;
+    color: slateblue;
+    margin-left: 170px;
+   padding-top: 50px;
+}
+
