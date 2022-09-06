@@ -1,0 +1,61 @@
+
+
+git config --global user.email ""
+git config --global user.name "" 
+ - 깃 처음 사용 시 깃허브 아이디 셋팅
+
+1. git init
+ - .git 폴더 생성 (터미널 경로 => cd.. , cd 경로)
+
+2. github ---> 레퍼지토리[저장소] 생성 public / private
+3. git remote add <remoteName> "레퍼지토리 주소"
+ - .git이 생성된 경로와 레퍼지토리가 연결
+
+4. git add .  (.은 해당 경로의 변화가 있는 모든 파일, 파일명)
+ - 스테이징(준비 단계)
+   -p.s 내가 올리고싶지 않은 파일이 있다면?
+   .gitignore 파일에 (경로, 파일명)
+
+5. git commit -m "커밋 메시지" -m "바디"
+ - 깃에 파일을 저장
+    -p.s
+        커밋 메시지 [subject], [body], footer
+        커밋 컨벤션
+            ex) git commit -m "[Style] modify style index.html" -m "index.html의 login기능의 css를 수정하였습니다"
+                git commit -m "style: modify style index.html" -m "index.html의 login기능의 css를 수정하였습니다"
+ 
+ 6. git push <remoteName> <brnachName>
+  - 깃허브 레퍼지토리 파일을 올림
+    ex) git push origin main (2020년 10월부터 master -> main)
+
+---------------------------------------------------------------------------------------------------------------
+
+ git flow
+
+    fork -> ( 선택, 내 개인 레퍼지토리 저장공간에 실제 레퍼지토리를 가지고 와서 작업, 사용법이 가따로움, 
+            fork를 해온 순간 내 레퍼지토리와 실제 레퍼지토리의 버전을 동기화 )
+
+    git branch <branchName> 
+    git checkout <brnachName> ----> git checkout -b <branchName>
+    ... edit code
+
+    git add . 
+    git commit -m '커밋메시지'
+    (x) git push ---> 깃허브에 main브랜치 아래 'feat/login' --> 버전 관리가 필요할 때 시행, 머지가 되면 브랜치 삭제
+
+    git checkout main
+    git merge <brnachName>
+
+    githube 레퍼지토리 이동후에 pull request 생성 (성심성시껏 template)
+
+---------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+    
+
+
+
+
