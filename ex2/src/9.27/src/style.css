@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: inline-block;
+  width:700px;
+  margin-left: 400px;
+
+}
+.fc-daygrid-day-number{
+  color:#00b294;
+}
+
+.fc-theme-standard th, .fc-theme-standard td{
+  border: 2px solid var(--fc-border-color, rgb(76, 222, 210))
+}
+
+.fc-view-harness, .fc-view-harness-active{
+  height: 200px;
+}
+
+.fc-col-header-cell-cushion{
+  font-size: 1.5em;
+  color: #00b294;
+}
+
+/* .fc-daygrid-day-frame, fc-scrollgrid-sync-inner{
+  height: 100px;
+} */
+
+.fc-daygrid-day-frame, fc-scrollgrid-sync-inner{
+ height: 70px;
+}
