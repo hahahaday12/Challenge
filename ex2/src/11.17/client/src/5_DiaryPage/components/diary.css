@@ -1,0 +1,7 @@
+.react-datepicker__header{
+  background-color: #7A90E2;
+}
+
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::after{
+  border-bottom-color: #7A90E2;
+}
